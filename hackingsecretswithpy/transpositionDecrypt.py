@@ -23,7 +23,7 @@ def decryptMessage(key, message):
 	# of strings. First, we need to calculate a few values.
 
 	# The number of "columns" in our transposition grid:
-	numOfColumns = int(math.ceil(len(message) / key))
+	numOfColumns = int(math.ceil(len(message) / key)) 
 	# The number of "rows" in out grid will need:
 	numOfRows = key
 	# The number of "shaded boxes" in the last "column" of the grid:

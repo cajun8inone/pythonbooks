@@ -1,4 +1,4 @@
-# Transposition Cipher Encryption
+nsposition Cipher Encryption
 # http://inventwithpython.com/hacking (BSD Licensed)
 
 #import pyperclip
@@ -15,7 +15,7 @@ def main():
     print(ciphertext + '|')
 
     # Copy the encrypted string in ciphertext to the clipboard.
-#    pyperclip.copy(ciphertext)
+    #pyperclip.copy(ciphertext)
 
 
 def encryptMessage(key, message):
